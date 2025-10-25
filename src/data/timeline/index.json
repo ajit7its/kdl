@@ -1,0 +1,26 @@
+[
+    {
+      "year": "2010",
+      "company": "ABC Technologies",
+      "description":
+        "Started as a Junior Developer working on basic web applications and learning the foundations of HTML, CSS, and JavaScript."
+    },
+    {
+      "year": "2017",
+      "company": "Innovate Solutions",
+      "description":
+        "Promoted to Front-End Engineer, leading small projects, implementing responsive design using Bootstrap, and collaborating with UI/UX teams."
+    },
+    {
+      "year": "2020",
+      "company": "CodeCrafters Inc.",
+      "description":
+        "Worked as a Full Stack Developer building scalable web apps with React and Node.js, managing APIs, and deploying solutions to AWS."
+    },
+    {
+      "year": "2023",
+      "company": "FutureSoft Labs",
+      "description":
+        "Currently serving as a Senior Engineer focusing on cloud architecture, automation, and mentoring junior developers."
+    }
+  ]
