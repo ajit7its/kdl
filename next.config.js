@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isVercel = process.env.VERCEL === '1';
+
 const nextConfig = {
-  reactStrictMode: true, // keeps React strict mode enabled
-  swcMinify: true,       // enables SWC minification
+  reactStrictMode: true,
+  swcMinify: true,
   eslint: {
-    // This disables ESLint during production builds
-    ignoreDuringBuilds: true,
+    // ✅ Disable ESLint only when deploying on Vercel
+    ignoreDuringBuilds: isVercel,
   },
 };
 
