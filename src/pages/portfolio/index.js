@@ -113,30 +113,7 @@ function Portfolio() {
 
         <CallToActionstyleTwo />
 
-      
-
-        {/* <!-- BRAND LOGO AREA START --> */}
-        <div className="pt-80 ltn__brand-logo-area ltn__brand-logo-1 pt-80--- pb-110 plr--9">
-          <Container fluid>
-            <Row className="ltn__brand-logo-active">
-              <Col xs={12}>
-                <Slider {...LogoSettings}>
-                  {brandLogoData.map((logo, key) => {
-                    return (
-                      <div key={key} className="ltn__brand-logo-item">
-                        <img
-                          src={`/img/brand-logo/${logo.image}`}
-                          alt="Brand Logo"
-                        />
-                      </div>
-                    );
-                  })}
-                </Slider>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        {/* <!-- BRAND LOGO AREA END --> */}
+   
 
         <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
           <Container>

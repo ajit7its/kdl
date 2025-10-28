@@ -73,7 +73,60 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           </div>
 
           <div className="ltn__utilize-menu">
-            <MenuList addListing={false} />
+            <ul>
+              <li>
+                <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/about">About</Link>
+                </li>
+                <li>
+                  <Link href="#">Services</Link>
+                  <span
+                  className="menu-expand"
+                  onClick={onClickHandler}
+                  aria-hidden="true"
+                ></span>
+                <ul className="sub-menu">
+                  <li>
+            <Link href="/infra-developers">Infra Developers</Link>
+          </li>
+          <li>
+            <Link href="/land-developers">Land Developers</Link>
+          </li>
+          <li>
+            <Link href="/constructions">Constructions</Link>
+          </li>
+           <li>
+            <Link href="/earth-movers">Earth Movers</Link>
+          </li>
+          <li>
+            <Link href="/interior-designing">Interior Designing</Link>
+          </li>
+                </ul>
+                </li>
+
+                <li>
+                  <Link href="#">Projects</Link>
+                  <span
+                  className="menu-expand"
+                  onClick={onClickHandler}
+                  aria-hidden="true"
+                ></span>
+                <ul className="sub-menu">
+                  <li>
+            <Link href="/">On Going</Link>
+          </li>
+          <li>
+            <Link href="/">Completed</Link>
+          </li>
+                  </ul>
+                  </li>
+                  <li>
+                  <Link href="/contact">Contact</Link>
+                </li>
+
+                </ul>
           </div>
         
           <div className="ltn__social-media-2">
